@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, i'm Otácio Barbosa</h1>
-<h3 align="center">I'm a systems analyst and I study databases<h3>
+<h3 align="center">I'm a systems analyst and I study databases</h3>
 
 - 🌱 I'm currently studying React and React Native.
 - 🧭 Oracle and English Certification.
