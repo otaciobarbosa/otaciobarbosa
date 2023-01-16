@@ -10,13 +10,6 @@
 
 <br>
 
-<div align="center">
-  <a href="https://github.com/otaciobarbosa">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=otaciobarbosa&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=otaciobarbosa&layout=compact&langs_count=7&theme=cobalt"/>
-  </a> 
-</div>
-<br>
 <div>
   <a href="mailto:otaciowork@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/ot%C3%A1ciobarbosa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
