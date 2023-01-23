@@ -31,3 +31,5 @@ My achievements on github
 
 <br>
 Thanks! :heart:
+
+![Snake animation](https://github.com/otaciobarbosa/otaciobarbosa/blob/output/github-contribution-grid-snake.svg)
