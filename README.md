@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, i'm Otácio Barbosa</h1>
-<h3 align="center">Everything will be fine!</h3>
+<h3 align="center">Will be all right!</h3>
 
 - 🎓 Development analyst graduated in systems analysis and development
 - 🎓 Graduate in database and business intelligence.
