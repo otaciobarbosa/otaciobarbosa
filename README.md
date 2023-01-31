@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, i'm Otácio Barbosa</h1>
 <h3 align="center">I'm a systems analyst and I study databases</h3>
 
-- 🌱 I'm currently studying React and React Native.
-- 🧭 Oracle and English Certification.
-- 🎓 I have a degree in Systems Analysis and Development for the  Estacio.
-- 🎓 Doing a Postgraduate in Banco de Bados e Business Intelligence for the Cruzeiro do Sul Virtual.
+- 🎓 Development analyst graduated in systems analysis and development
+- 🎓 Graduate in database and business intelligence.
+- 🧭 Full Stack Developer with `SQL` domain.
+- ⚙️ Proficiency in `PHP`, `JavaScript`, `Python`, `Ionic`, `MSSQL`, `MySQL`, `Oracle`
+- ❤️ Experience in the technology area, applied to the pharmaceutical and retail areas.
 - 💬 I like movies, series and games.
-- ⚙️ I use daily: `.php`,  `.js`, `.py`,`ionic`,`mssql`,`mysql`,`oracle`
 
 <br>
 
