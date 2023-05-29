@@ -3,6 +3,7 @@
 
 - 🎓 Development analyst graduated in systems analysis and development
 - 🎓 Graduate in database and business intelligence.
+- 🎓 Improvement course in Microsoft Power BI for Business Intelligence and Data Science
 - 🧭 Full Stack Developer with `SQL` domain.
 - ⚙️ Proficiency in `PHP`, `JavaScript`, `Python`, `Ionic`, `MSSQL`, `MySQL`, `Oracle`
 - ❤️ Experience in the technology area, applied to the pharmaceutical and retail areas.
