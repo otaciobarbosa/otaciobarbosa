@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Otácio Barbosa</title>
+  <!-- Adicione os arquivos do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #140e24, #04030b, #271c3c, #140e24);
+  background-size: 400% 400%;
+  animation: moveBackground 15s ease infinite;
+  overflow: hidden; /* Remover barra de rolagem */
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto; /* Adicione esta linha para centralizar o container */
+    }
+    .description {
+      flex: 1;
+    }
+    .description .card {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      color: #333;
+    }
+    .card p {
+      color: #777;
+    }
+    .portfolio {
+      flex: 2;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .portfolio .card {
+      flex-basis: calc(33.33% - 20px);
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 10px;
+      word-wrap: break-word;
+    }
+
+    .profile-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .profile-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+	
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: white;
+	animation: anim-stars 10s linear infinite;
+  }
+  @keyframes anim-stars {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-150px);
+    }
+  }
+
+    .starx {
+      width: 3px;
+      height:3px;
+      background-color: silver;
+      clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 35.4%, 68.2% 57.3%, 79.1% 91.3%, 50% 70.9%, 20.9% 91.3%, 31.8% 57.3%, 0% 35.4%, 38.2% 38.2%);
+      position: absolute;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+
+    .starx.up {
+      left: 50%;
+      top: 100%;
+      animation-name: moveUp;
+    }
+
+    .starx.down {
+      left: 50%;
+      top: 0;
+      animation-name: moveDown;
+    }
+
+    .starx.left {
+      left: 100%;
+      top: 50%;
+      animation-name: moveLeft;
+    }
+
+    .starx.right {
+      left: 0;
+      top: 50%;
+      animation-name: moveRight;
+    }
+
+    .starx.diagonal {
+      left: 0;
+      top: 0;
+      animation-name: moveDiagonal;
+    }
+
+    @keyframes moveUp {
+      0% { top: 100%; }
+      100% { top: 0; }
+    }
+
+    @keyframes moveDown {
+      0% { top: 0; }
+      100% { top: 100%; }
+    }
+
+    @keyframes moveLeft {
+      0% { left: 100%; }
+      100% { left: 0; }
+    }
+
+    @keyframes moveRight {
+      0% { left: 0; }
+      100% { left: 100%; }
+    }
+
+    @keyframes moveDiagonal {
+      0% { left: 0; top: 0; }
+      100% { left: 100%; top: 100%; }
+    }
+  </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const numStars = 500;
+    const starsContainer = document.createElement('div');
+    starsContainer.classList.add('stars');
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.left = `${Math.random() * 100}%`;
+      star.style.top = `${Math.random() * 100}%`;
+      starsContainer.appendChild(star);
+    }
+    document.body.appendChild(starsContainer);
+  });
+</script>
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="stars" ></div>
+  <div class="starx up"></div>
+  <div class="starx down"></div>
+  <div class="starx left"></div>
+  <div class="starx right"></div>
+  <div class="starx diagonal"></div>
+    <div class="row">
+      <div class="col-2">
+        <div class="description">
+          <div class="card">
+            <div class="card-body">
+              <div class="profile-card">
+                <img class="profile-image" src="https://avatars.githubusercontent.com/u/25693388?v=4" alt="Sua Foto">
+              </div>
+              <p style="text-align:center;">
+                Sou um analista de dados apaixonado por Business Intelligence e pelo poder transformador dos dados.
+                Minha experiência em análise de dados e desenvolvimento de sistemas me permite entregar insights valiosos
+                e soluções inovadoras para impulsionar o sucesso dos negócios. Estou sempre em busca de novos desafios e
+                oportunidades para aplicar meus conhecimentos em tecnologia e ajudar a transformar dados em informações
+                estratégicas. Vamos conectar e explorar juntos novas possibilidades para o seu projeto!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="description">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Análise de Dados</h3>
+                  <p>Experiência em utilizar SQL e Python para manipular e analisar grandes conjuntos de dados, obtendo insights valiosos para tomada de decisões estratégicas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Desenvolvimento de Sistemas</h3>
+                  <p>Conhecimentos em PHP, JavaScript e Ionic para desenvolvimento de sistemas web e aplicativos móveis, proporcionando experiências interativas e otimizadas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Bancos de Dados</h3>
+                  <p>Experiência em administrar e implementar bancos de dados SQL Server, Oracle, MySQL e PostgreSQL para gerenciamento de sistemas e análise de dados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Business Intelligence</h3>
+                  <p>Participação em programas de Desenvolvimento de Líderes e cursos de Microsoft Power BI, fornecendo conhecimentos em análise de dados comerciais, de marketing e financeiros.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Ferramentas de ETL</h3>
+                  <p>Experiência com Pentaho Data Integration - Kettle para processos de Extração, Transformação e Carga de dados, garantindo qualidade e precisão nos dados analisados.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card my-3">
+                <div class="card-body">
+                  <h3>Excel</h3>
+                  <p>Utilização do Excel para criar relatórios e planilhas, auxiliando na análise e interpretação de dados para suporte à tomada de decisões.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="description">
+          <div class="card">
+            <div class="card-body">
+              <h3>Ferramentas e Tecnologias</h3>
+              <ul>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Ionic</li>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>CorporeRM</li>
+                <li>TA/TSS</li>
+                <li>Consinco By Totvs</li>
+                <li>Socin PDV</li>
+                <li>Software Emporium</li>
+                <li>Avanço Informática</li>
+                <li>Dietpro</li>
+                <li>Vitruvio</li>
+                <li>Veltio</li>
+				<li>Farmácia Popular</li>
+                <li>Serviços de PBM</li>
+                <li>MultWin</li>
+				<li>Itec</li>
+				<li>Protheus</li>
+				<li>Metabase</li>
+				<li>PowerBI</li>
+				<li>Grafana</li>
+                <li>Pentaho Data Integration - Kettle</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
