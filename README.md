@@ -12,13 +12,18 @@ Transformo dados em eficiência operacional e inteligência estratégica.
 ---
 
 ## 🧠 Core Expertise
-
 ✔ SQL avançado e otimização de performance
+
 ✔ Análise e ajuste de Execution Plans
+
 ✔ Criação e otimização de índices
+
 ✔ Correção de erros de PK, FK, constraints e locks
+
 ✔ Modelagem de dados relacional
+
 ✔ Administração de bancos em ambiente produtivo
+
 ✔ Desenvolvimento de dashboards estratégicos
 
 ---
