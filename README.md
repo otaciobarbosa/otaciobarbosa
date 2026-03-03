@@ -13,13 +13,13 @@ Transformo dados em eficiência operacional e inteligência estratégica.
 
 ## 🧠 Core Expertise
 
-✔ SQL avançado e otimização de performance
-✔ Análise e ajuste de Execution Plans
-✔ Criação e otimização de índices
-✔ Correção de erros de PK, FK, constraints e locks
-✔ Modelagem de dados relacional
-✔ Administração de bancos em ambiente produtivo
-✔ Desenvolvimento de dashboards estratégicos
+* ✔ SQL avançado e otimização de performance
+* ✔ Análise e ajuste de Execution Plans
+* ✔ Criação e otimização de índices
+* ✔ Correção de erros de PK, FK, constraints e locks
+* ✔ Modelagem de dados relacional
+* ✔ Administração de bancos em ambiente produtivo
+* ✔ Desenvolvimento de dashboards estratégicos
 
 ---
 
@@ -47,8 +47,8 @@ Experiência prática com:
 * ETL e transformação de dados
 * Automação de processos com Python
 
-Meu foco em BI vai além do dashboard:
-📌 Entrego estrutura, performance e confiabilidade na base.
+* Meu foco em BI vai além do dashboard:
+* 📌 Entrego estrutura, performance e confiabilidade na base.
 
 ---
 
