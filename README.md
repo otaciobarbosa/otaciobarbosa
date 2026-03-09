@@ -105,9 +105,9 @@ Atualmente aprofundando conhecimentos em:
 
 ## 🤝 Vamos conectar
 
-📧 [contato@otaciobarbosa.com.br](mailto:contato@otaciobarbosa.com.br)
-🔗 LinkedIn: [https://www.linkedin.com/in/otacio-barbosa/](https://www.linkedin.com/in/otacio-barbosa/)
-🐙 GitHub: [https://github.com/otaciobarbosa](https://github.com/otaciobarbosa)
+* 📧 [contato@otaciobarbosa.com.br](mailto:contato@otaciobarbosa.com.br)
+* 🔗 LinkedIn: [https://www.linkedin.com/in/otacio-barbosa/](https://www.linkedin.com/in/otacio-barbosa/)
+* 🐙 GitHub: [https://github.com/otaciobarbosa](https://github.com/otaciobarbosa)
 
 ---
 
